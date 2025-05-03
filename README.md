@@ -1,3 +1,5 @@
+rm -rf Mlk
+
 git clone https://github.com/Herivola01/Mlk.git
 
 cd Mlk
